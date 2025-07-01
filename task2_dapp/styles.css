@@ -1,59 +1,59 @@
 body {
-    font-family: Arial, sans-serif;
-    max-width: 500px;
-    margin: 20px auto;
-    text-align: center;
-    background: #f4f4f4;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+  background: #f0f2f5;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #333;
+  color: #222;
 }
 
 input {
-    width: calc(100% - 22px);
-    padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  width: 90%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
 }
 
 button {
-    background: #007bff;
-    color: white;
-    border: none;
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 5px 5px;
-    transition: 0.3s;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  transition: 0.3s ease-in-out;
 }
 
 button:hover {
-    background: #0056b3;
+  background: #0056b3;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 li {
-    display: flex;
-    flex-direction: column;
-    background: white;
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
 }
 
 .task-header {
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: #555;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 6px;
 }

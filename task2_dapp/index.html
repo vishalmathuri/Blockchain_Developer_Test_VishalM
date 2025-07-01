@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blockchain Task Manager</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
-    <script type="module" src="app.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blockchain Task Manager</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
 </head>
 <body>
-    <h2>Blockchain Task Manager</h2>
-    <button id="connectWalletButton">Connect MetaMask</button>
-    <p id="walletAddress">Not connected</p>
+  <h2>Blockchain Task Manager</h2>
+  <button id="connectWalletButton" onclick="connectWallet()">Connect MetaMask</button>
+  <p id="walletAddress">Not connected</p>
 
-    <div id="taskManager" style="display: none;">
-        <input type="text" id="taskInput" placeholder="Enter a task title">
-        <input type="text" id="taskDescription" placeholder="Enter description">
-        <button id="addTaskButton">Add Task</button>
-        <button id="fetchTasksButton">Fetch All Tasks</button>
-        <ul id="taskList"></ul>
-    </div>
+  <div id="taskManager" style="display: none;">
+    <input type="text" id="taskInput" placeholder="Enter a task title" />
+    <input type="text" id="taskDescription" placeholder="Enter description" />
+    <button onclick="addTask()">Add Task</button>
+    <button onclick="fetchTasks()">Fetch All Tasks</button>
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>
