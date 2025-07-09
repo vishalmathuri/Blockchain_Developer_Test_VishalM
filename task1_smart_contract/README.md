@@ -92,8 +92,8 @@ npx hardhat run deploy/deploy.js --network sepolia
 
 Replace with your actual deployed contract info:
 
-* **Contract Address:** `0xA58eA87FD9eD0A85C6B283106E7Ce2a966CFdD11`
-* **Deployer Address:** `0xad707E8BBE2bA3a1A3DeDB12009F080021AAc315`
+* **Contract Address:** `0x34Cae817954a7A3423552E95E368B59737e1710b`
+* **Deployer Address:** `0x9CF372227cf27996B7BBC4dE0ed257DcA21d166e`
 * **Network:** Sepolia Testnet
 
 ---
